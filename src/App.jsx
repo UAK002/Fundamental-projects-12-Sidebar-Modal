@@ -4,11 +4,16 @@ import Sidebar from './Sidebar';
 
 const App = () => {
   return (
-    <main>
+    // <main>
+    //   <Home />
+    //   <Modal />
+    //   <Sidebar />
+    // </main>
+    <>
       <Home />
       <Modal />
       <Sidebar />
-    </main>
+    </>
   );
 };
 export default App;
